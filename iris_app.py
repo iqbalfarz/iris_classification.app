@@ -57,11 +57,11 @@ ver_i = 0.5 # versicolor intensity
 set_i = 0.5 # setosa intensity
 
 if prediction=='virginica':
-    vir_i = 1.1
+    vir_i = 1.1 # increase the intensity from normal 1.0 to 1.1
 elif prediction=='versicolor':
-    ver_i = 1.1
+    ver_i = 1.1 # increase the intensity from normal 1.0 to 1.1
 elif prediction=='setosa':
-    set_i = 1.1
+    set_i = 1.1 # increase the intensity from normal 1.0 to 1.1
     
     
 enhancer_vir = ImageEnhance.Brightness(virginica)
